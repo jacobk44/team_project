@@ -20,4 +20,4 @@ A professional cleaning services website built with Next.js.
 3. Run dev server: `npm run dev`
 
 ## Project Board
-View our tasks here: https://github.com/jacobk44/team_project
+View our tasks here: https://trello.com/b/Q6Pk6HW3/kjb-elite
