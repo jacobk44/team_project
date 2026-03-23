@@ -16,8 +16,8 @@ A professional cleaning services website built with Next.js.
 
 ## Getting Started
 1. Clone the repo: `git clone https://github.com/jacobk44/team_project.git`
-2. Install dependencies: `npm install`
-3. Run dev server: `npm run dev`
+2. Install dependencies: `pnpm install`
+3. Run dev server: `pnpm run dev`
 
 ## Project Board
 View our tasks here: https://trello.com/b/Q6Pk6HW3/kjb-elite
