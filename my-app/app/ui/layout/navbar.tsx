@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 font-bold text-xl text-green-600">
-            Sparkle Cleaning
+            KJB Elite Clean
           </div>
 
           {/* Desktop Menu */}
