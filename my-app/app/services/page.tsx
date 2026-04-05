@@ -9,7 +9,7 @@ export default function Home() {
         title="Services"
         description="Home and Moving cleaning services, customizable to suit your needs."
         buttonText="BOOK NOW"
-        image="/clean_home.jpg"
+        image="/clean_service.jpg"
       />
     </main>
   );
