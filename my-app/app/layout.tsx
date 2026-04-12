@@ -41,7 +41,7 @@ export default function RootLayout({
 
         {/* Optional footer */}
         <footer className="bg-gray-100 text-gray-700 text-center py-4 mt-auto">
-          &copy; {new Date().getFullYear()} Sparkle Cleaning Services. All rights reserved.
+          &copy; {new Date().getFullYear()} KJB Elite Clean. All rights reserved.
         </footer>
       </body>
     </html>

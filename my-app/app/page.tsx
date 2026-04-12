@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Card from "@/app/ui/home/card";
 import Cardbox from "@/app/ui/home/cardbox";
+import ContactCta from "@/app/ui/layout/contact-cta";
 
 export default function Page() {
   return (
@@ -32,14 +33,14 @@ export default function Page() {
             <div className="mt-4 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
               <Link
                 href="/book"
-                className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-500 transition text-center"
+                className="bg-gray-800 text-white px-6 py-2 rounded-md hover:bg-gray-700 transition text-center"
               >
                 Book Now
               </Link>
 
               <Link
                 href="/learn-more"
-                className="bg-blue-100 text-blue-700 px-6 py-2 rounded-md hover:bg-blue-200 transition text-center"
+                className="bg-gray-200 text-gray-800 px-6 py-2 rounded-md hover:bg-gray-300 transition text-center"
               >
                 Learn More
               </Link>
@@ -133,7 +134,7 @@ export default function Page() {
             <div className="mt-4 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
               <Link
                 href="/book"
-                className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-500 transition text-center"
+                className="bg-gray-800 text-white px-6 py-2 rounded-md hover:bg-gray-700 transition text-center"
               >
                 More About us
               </Link>
@@ -153,6 +154,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <ContactCta />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 // app/page.tsx
 import Hero from "@/app/ui/about/hero";
+import ContactCta from "@/app/ui/layout/contact-cta";
 
 
 export default function Home() {
@@ -10,6 +11,12 @@ export default function Home() {
         description="Home and Moving cleaning services, customizable to suit your needs."
         buttonText="BOOK NOW"
         image="/clean_service.jpg"
+      />
+
+      <ContactCta
+        title="Need a Trusted Cleaning Team?"
+        description="Reach out today and we will help you choose the right service for your home or business."
+        buttonText="Get in Touch"
       />
     </main>
   );
