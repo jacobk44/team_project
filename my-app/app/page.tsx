@@ -6,7 +6,7 @@ import Card from "@/app/ui/home/card";
 import Cardbox from "@/app/ui/home/cardbox";
 import ContactCta from "@/app/ui/layout/contact-cta";
 
-export default function Page() {
+export default function Home() {
   return (
     <main className="bg-gray-100">
       {/* HERO SECTION */}

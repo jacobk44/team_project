@@ -1,4 +1,4 @@
-// components/Card.tsx
+
 
 type CardProps = {
   title: string;
