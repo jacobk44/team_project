@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Card from "@/app/ui/home/card";
-import Cardbox from "@/app/ui/home/cardbox";
-import ContactCta from "@/app/ui/details/contact-cta";
+import Card from "./ui/home/card";
+import Cardbox from "./ui/home/cardbox";
+import ContactCta from "./ui/details/contact-cta";
 
 export default function Home() {
   return (

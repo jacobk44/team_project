@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Card from "@/app/ui/home/card";
+import Card from "../home/card";
 
 type HeroProps = {
   title?: string;
