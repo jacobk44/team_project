@@ -1,6 +1,6 @@
 // app/page.tsx
 import Hero from "@/app/ui/about/hero";
-import ContactCta from "@/app/ui/layouts/contact-cta";
+import ContactCta from "@/app/ui/details/contact-cta";
 
 
 export default function Home() {
