@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import NavLinks from "./nav-link";
+import NavLinks from "./navlink";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

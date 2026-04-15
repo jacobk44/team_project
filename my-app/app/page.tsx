@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Card from "./ui/home/card";
 import Cardbox from "./ui/home/cardbox";
-import ContactCta from "./ui/details/contact-cta";
+import ContactCta from "./ui/details/contactcta";
 
 export default function Home() {
   return (
